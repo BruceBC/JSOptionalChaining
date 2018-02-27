@@ -1,0 +1,21 @@
+{
+  "name": "jsoptionalchaining",
+  "version": "1.0.0",
+  "description": "Demonstrates the use of optional chaining in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run babel && node bundle.js",
+    "babel": "babel index.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-syntax-optional-chaining": "7.0.0-beta.40"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0-beta.40",
+    "@babel/helper-plugin-test-runner": "7.0.0-beta.40",
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/preset-es2015": "^7.0.0-beta.40"
+  }
+}
